@@ -13,13 +13,14 @@
     height: 296px;
 }
 .main-header{
-    font-size: 28px;
+    font-size: 23px;
     padding: 3px;
 }
 .para-one{
-    font-size: 15px;
+    font-size: 12px;
 }
 .para-two{
+    disply: none;
     font-size: 12px;
     padding: 5px;
 }
