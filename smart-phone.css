@@ -1,0 +1,70 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 2rem;
+    padding: 0px 5px;
+}
+.home{
+    height: 200px;
+    padding: 3px 20px;
+}
+.home::before{
+    height: 296px;
+}
+.main-header{
+    font-size: 28px;
+    padding: 3px;
+}
+.para-one{
+    font-size: 15px;
+}
+.para-two{
+    font-size: 12px;
+    padding: 5px;
+}
+.btn {
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px 7px;
+}
+.btn a{
+    font-size: 15px;
+}
+#services{
+    flex-direction: column;
+}
+.service-header {
+    font-size: 2rem;
+}
+.box-sub-header {
+    font-size: 28px;
+}
+#clints{
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 192px;
+}
+#clints::before {
+    height: 263;
+}
+.clint-item {
+    padding: 12px 10px 5px;
+}
+.clint-header {
+    font-size: 28px;
+}
+.clint-item img {
+    height: 61px;
+}
+.contact-header {
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+#clints-section {
+    margin-top: 32px;
+    height: 262px;
+}
+.contact form{
+    width: 70%;
+}

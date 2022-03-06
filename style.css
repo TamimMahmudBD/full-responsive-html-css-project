@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffffff;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position:relative;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .5;
+}
+.logo{
+    margin: 0px 15px;
+}
+.logo img{
+    margin: 5px 15px;
+    height: 50px;
+    filter: invert(100%);
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    display: block;
+    font-family:sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+ul li a:hover{
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 295px;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    background:url(img/apple-background.jpg) no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 360px;
+    z-index: -1;
+    opacity: .5;
+}
+.main-header{
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 5px;
+}
+.para-one{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.para-two{
+    padding: 15px 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.btn{
+    border: 3px solid white;
+    background-color: rgb(0, 0, 0);
+    padding: 6px 15px;
+    border-radius: 8px;
+}
+.btn a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(48, 47, 47);
+}
+section.services-container {
+    margin: 15px 0px;
+}
+.service-header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#services{
+    margin: 14px 25px;
+    display: flex;
+}
+#services .box{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #e7e4e4;
+    padding: 35px;
+    margin: 3px 6px;
+    border-radius: 23px;
+}
+#services .box img{
+    height: 100px; 
+    margin: auto;
+    display: block;
+}
+.box-sub-header{
+    font-size: 2.0rem;
+    border: 12px;
+    padding: 5px 0px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.box-text-center{
+    text-align: center;
+    font-family:sans-serif;
+}
+#clints-section{
+    height: 263px;
+    margin: 26px 0px;
+    position:relative
+}
+#clints-section::before{
+    content: "";
+    position: absolute;
+    background: url(img/clint-backgroud.jpg) ;
+    height: 144px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+.clint-header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#clints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px;
+    height: 157px;
+}
+#clints::before{
+    content: "";
+    background: url(img/claint.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 263px;
+    position: absolute;
+    z-index: -2;
+    opacity: .85;
+}
+.clint-item{
+    padding: 35px 15px 5px;
+}
+.clint-item img{
+    height: 100px;
+    border-radius: 10px;
+}
+.contact-header{
+    color: rgb(36, 36, 36);
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contact-section{
+    margin-top: 45px;
+    position: relative;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.contact input, 
+.contact textarea{
+    border-radius: 7px;
+    font-size: 1rem;
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid rgb(163, 161, 161);
+}
+.contact form{
+    width: 40%;
+}
+.contact label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    margin-top: 44px;
+    height: 509px;
+    width: 100%;
+    z-index: -1;
+    opacity: .50;
+    background: url(img/cotact.jpg) no-repeat center center/cover; 
+}
+.submit{
+    width: 30%;
+    margin: auto;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 7px 10px;
+}
+.copyright{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
